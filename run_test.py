@@ -7,10 +7,10 @@ def main():
     load_dotenv()
 
     if not os.environ.get("GEMINI_API_KEY"):
-        print("ERROR: GEMINI_API_KEY environment variable not set in .env file.")
+        print("ERROR: GEMINI_API_KEY environment variable not set.")
         return
 
-    print("Initializing AER Triage Engine & Local Vector DB (using Gemini Embeddings)...")
+    print("Initializing AER Triage Engine & Local Vector DB...")
     engine = AERTriageEngine()
 
     print("Loading intake records...")

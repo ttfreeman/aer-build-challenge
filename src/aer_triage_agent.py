@@ -8,35 +8,11 @@ import os
 import re
 import json
 import uuid
-import warnings
 from datetime import datetime, timezone
 from typing import Optional, List, Dict, Any, Literal
 from pydantic import BaseModel, Field
 
-# ==============================================================================
-# NETWORK / SSL COMPATIBILITY LAYER
-# ==============================================================================
-# Patches httpx to bypass missing local CA certificates on managed/WSL environments.
-import httpx
-
-original_client_init = httpx.Client.__init__
-
-def patched_client_init(self, *args, **kwargs):
-    kwargs['verify'] = False
-    original_client_init(self, *args, **kwargs)
-
-httpx.Client.__init__ = patched_client_init
-
-# Suppress urllib3 / httpx unverified HTTPS warnings in terminal during demo
-warnings.filterwarnings("ignore", category=UserWarning)
-try:
-    import urllib3
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-except ImportError:
-    pass
-
 import chromadb
-from chromadb import Documents, EmbeddingFunction, Embeddings
 from google import genai
 from google.genai import types
 
@@ -154,27 +130,13 @@ REGULATORY_DIRECTIVES = [
     }
 ]
 
-class GeminiEmbeddingFunction(EmbeddingFunction):
-    """Overrides ChromaDB default to use Google Gemini for embeddings."""
-    def __init__(self, api_key: str):
-        self.client = genai.Client(api_key=api_key)
-
-    def __call__(self, input: Documents) -> Embeddings:
-        response = self.client.models.embed_content(
-            model="text-embedding-004",
-            contents=input
-        )
-        return [e.values for e in response.embeddings]
-
-def init_vector_db(api_key: str) -> chromadb.Collection:
-    """Initializes local ChromaDB with regulatory directives using Gemini Embeddings."""
+def init_vector_db() -> chromadb.Collection:
+    """Initializes local ChromaDB with regulatory directives."""
     client = chromadb.Client()
-    gemini_ef = GeminiEmbeddingFunction(api_key=api_key)
     
     collection = client.get_or_create_collection(
         name="aer_directives",
-        metadata={"hnsw:space": "cosine"},
-        embedding_function=gemini_ef
+        metadata={"hnsw:space": "cosine"}
     )
     if collection.count() == 0:
         for directive in REGULATORY_DIRECTIVES:
@@ -257,7 +219,7 @@ def call_gemini_extractor(
     }
 
     response = client.models.generate_content(
-        model="gemini-2.5-pro",
+        model=os.getenv("GEMINI_MODEL", "gemini-3.6-flash"),
         contents=f"Triage this intake record:\n{json.dumps(user_payload, indent=2)}",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
@@ -534,7 +496,7 @@ class AERTriageEngine:
             raise ValueError("GEMINI_API_KEY is required.")
             
         self.client = genai.Client(api_key=self.api_key)
-        self.chroma_col = init_vector_db(self.api_key)
+        self.chroma_col = init_vector_db()
         self.history_tracker = HistoryTracker()
 
     def process_record(self, record: Dict[str, Any]) -> TriageOutput:
