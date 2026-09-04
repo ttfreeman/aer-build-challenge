@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from dotenv import load_dotenv
 from src.aer_triage_agent import AERTriageEngine
 
@@ -10,11 +11,18 @@ def main():
         print("ERROR: GEMINI_API_KEY environment variable not set.")
         return
 
+    # Get intake records file path from command-line argument or use default
+    intake_file = sys.argv[1] if len(sys.argv) > 1 else 'data/intake_records.json'
+    
+    if not os.path.exists(intake_file):
+        print(f"ERROR: Intake records file not found: {intake_file}")
+        return
+
     print("Initializing AER Triage Engine & Local Vector DB...")
     engine = AERTriageEngine()
 
-    print("Loading intake records...")
-    with open('data/intake_records.json', 'r') as f:
+    print(f"Loading intake records from {intake_file}...")
+    with open(intake_file, 'r') as f:
         data = json.load(f)
 
     records = data.get('records', [])
