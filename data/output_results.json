@@ -1,0 +1,1808 @@
+[
+  {
+    "record_id": "R-004",
+    "extraction": {
+      "reporter_name": null,
+      "reporter_contact": null,
+      "operator_named": null,
+      "location_text": null,
+      "timestamp_incident": null,
+      "substance_or_hazard": "Rusty water",
+      "observed_symptoms": null,
+      "summary_of_events": "An anonymous reporter submitted a web form stating that the water in a dugout appears rusty. No location, operator, or health symptoms were provided."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": null,
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "00f675e8-6759-45a4-86d2-aa1fcf7b35ce",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.237061+00:00",
+      "execution_latency_sec": 10.351,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-002",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "403-555-0198",
+      "operator_named": null,
+      "location_text": "Rge Rd 271 near Twp Rd 344",
+      "timestamp_incident": "since about six this morning",
+      "substance_or_hazard": "dust and noise",
+      "observed_symptoms": null,
+      "summary_of_events": "Caller reported a truck idling on a lease road since approximately 06:00, causing significant dust and noise. The caller noted the dust prevents them from hanging laundry. No spills, leaks, or health symptoms were reported."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158.",
+    "regulatory_finding": {
+      "directive_id": "RD-158",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Rge Rd 271 near Twp Rd 344 has been received and logged into our compliance tracking system. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "ba78ea80-b532-47e2-b9cb-f476bdf48b47",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.236247+00:00",
+      "execution_latency_sec": 11.97,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-005",
+    "extraction": {
+      "reporter_name": "M. Trudel",
+      "reporter_contact": "587-555-0121",
+      "operator_named": "Sablefield Energy",
+      "location_text": "SW-12-56-3-W5",
+      "timestamp_incident": "yesterday",
+      "substance_or_hazard": null,
+      "observed_symptoms": null,
+      "summary_of_events": "The caller reported that a surveying crew in trucks marked with Sablefield entered their land near an old wellhead on the day prior to the call without providing any prior notice."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-146 Clause 1, 2 & 3: Unauthorized entry without mandatory 7 days written notice, or failure to restore agricultural gate/livestock controls.",
+    "regulatory_finding": {
+      "directive_id": "RD-146",
+      "clause_reference": "Clause 2 & 3",
+      "finding_summary": "Licensee contravention: entry without notice or failure to maintain livestock barriers."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear M. Trudel,\n\nYour report regarding energy operations in the vicinity of SW-12-56-3-W5 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "0e2fa39e-a01a-4131-9e11-9c544ab4c677",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.260981+00:00",
+      "execution_latency_sec": 12.141,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-009",
+    "extraction": {
+      "reporter_name": "R. Whitecalf",
+      "reporter_contact": "rwhitecalf@example.org",
+      "operator_named": "Sablefield Energy",
+      "location_text": "LSD 4-22-49-8-W4",
+      "timestamp_incident": null,
+      "substance_or_hazard": "debris and abandoned tubing",
+      "observed_symptoms": null,
+      "summary_of_events": "Reporter is following up on a previous complaint from June regarding debris and abandoned tubing left on the lease. The reporter states that no cleanup has occurred despite being told someone would attend within 30 days."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear R. Whitecalf,\n\nYour report regarding energy operations in the vicinity of LSD 4-22-49-8-W4 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "99cfce9d-3017-4878-9aed-f7f5785158a2",
+      "execution_timestamp_utc": "2026-09-04T19:02:35.251062+00:00",
+      "execution_latency_sec": 11.204,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-006",
+    "extraction": {
+      "reporter_name": "P. Oyelaran",
+      "reporter_contact": "poyelaran@example.com",
+      "operator_named": "Nordvik Resources",
+      "location_text": "N of Twp Rd 502, Rge Rd 15",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Produced water",
+      "observed_symptoms": null,
+      "summary_of_events": "Reporter states there is an apparent produced water release near their grazing lease. The ground is stained over an estimated 15 by 20 metre area. The reporter noted there is no flowing water nearby and no personnel were seen on site."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear P. Oyelaran,\n\nYour report regarding energy operations in the vicinity of N of Twp Rd 502, Rge Rd 15 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "f1c81825-ce45-4919-a834-d1232f731658",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.545440+00:00",
+      "execution_latency_sec": 13.177,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-010",
+    "extraction": {
+      "reporter_name": "A. Brightwater",
+      "reporter_contact": "abrightwater@example.com",
+      "operator_named": null,
+      "location_text": "near Twp Rd 610",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Unknown substance in open tank",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter observed four dead songbirds around the edge of an open tank on a lease near Twp Rd 610. The contents of the tank are unknown. The reporter stated they have photos of the incident. This involves wildlife mortality potentially associated with exposed process fluid on an energy lease."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-101 Clause 4: Wildlife/livestock mortality associated with open process fluid or lease containment.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 4",
+      "finding_summary": "Wildlife/livestock mortality reportable within 24h."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear A. Brightwater,\n\nYour report regarding energy operations in the vicinity of near Twp Rd 610 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "55f3eb4c-e0e9-41c0-8cd2-9430ba7690c5",
+      "execution_timestamp_utc": "2026-09-04T19:02:35.298666+00:00",
+      "execution_latency_sec": 12.427,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-008",
+    "extraction": {
+      "reporter_name": "L. Fenn",
+      "reporter_contact": "lfenn@example.net",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "Rge Rd 63, approx 1.2 km from station",
+      "timestamp_incident": "Since August shutdown",
+      "substance_or_hazard": "Noise",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that noise from the Aurora Gas Partners compressor station has noticeably increased since a shutdown in August. The reporter used a phone app to measure the noise at 52 dBA at night from their deck."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158.",
+    "regulatory_finding": {
+      "directive_id": "RD-158",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Dear L. Fenn,\n\nYour report regarding energy operations in the vicinity of Rge Rd 63, approx 1.2 km from station has been received and logged into our compliance tracking system. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "6d3ee10f-2b3e-485a-84ec-e0c9bef16dfa",
+      "execution_timestamp_utc": "2026-09-04T19:02:34.755014+00:00",
+      "execution_latency_sec": 13.025,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-158"
+        },
+        {
+          "directive_id": "RD-133"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-001",
+    "extraction": {
+      "reporter_name": "G. Halvorsen",
+      "reporter_contact": "ghalv@example.net, 780-555-0142",
+      "operator_named": "Nordvik Resources",
+      "location_text": "NW of Barrhead, Rge Rd 84",
+      "timestamp_incident": "Started Thursday",
+      "substance_or_hazard": "Diesel smell",
+      "observed_symptoms": "Headaches",
+      "summary_of_events": "Reporter states there is an ongoing diesel smell near the access road by their quarter section, which began around Thursday. The reporter notes the smell is not overpowering, but their wife has been experiencing headaches in the evening."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear G. Halvorsen,\n\nYour report regarding energy operations in the vicinity of NW of Barrhead, Rge Rd 84 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "961f0276-8c54-41b2-9b2b-41c91748e25c",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.235874+00:00",
+      "execution_latency_sec": 14.711,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-003",
+    "extraction": {
+      "reporter_name": "D. Achebe",
+      "reporter_contact": "dachebe@example.org",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "approx 3 km N of Wandering Hills",
+      "timestamp_incident": "Intermittently for three nights, roughly 11pm to 2am",
+      "substance_or_hazard": "Black smoke from flaring",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that a flare at a battery operated by Kestrel Midstream has been burning bright orange and producing black smoke intermittently between 11pm and 2am for the past three nights. The reporter notes this is new behavior and attached photos."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-133 Clause 2: Visible black smoke from flaring or off-hours flaring activity.",
+    "regulatory_finding": {
+      "directive_id": "RD-133",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Contravention of visible emission and routine flaring standards."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear D. Achebe,\n\nYour report regarding energy operations in the vicinity of approx 3 km N of Wandering Hills has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "ac283c18-7702-4eb8-a4a7-b7ef882109fe",
+      "execution_timestamp_utc": "2026-09-04T19:02:33.236539+00:00",
+      "execution_latency_sec": 15.739,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-007",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "780-555-0177",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "E of Pine Coulee crossing, plant on the east side of the river",
+      "timestamp_incident": "Approximately 5-10 minutes prior to 2026-09-15T10:14:00Z",
+      "substance_or_hazard": "Loud bang, strong sulphur smell (potential H2S)",
+      "observed_symptoms": "Watering eyes",
+      "summary_of_events": "The caller reported hearing a loud bang followed by a strong sulphur smell coming from the Kestrel Midstream plant located east of the river near Pine Coulee crossing. The incident occurred approximately 5 to 10 minutes prior to the call. The caller reported experiencing watering eyes. Due to the reported sulphur smell and physical symptoms, this represents a potential acute health impact and possible H2S release requiring immediate escalation."
+    },
+    "severity_tier": "Tier 1",
+    "tier_reasoning": "RD-101 Clause 1 & RD-114 Clause 3: Release/odor containing H2S/sour gas with reported human health symptoms. Immediate escalation within 1 hour.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1",
+      "finding_summary": "Immediate 1-hour reportable H2S/sour gas release with public health symptoms."
+    },
+    "route": "Escalate to duty officer",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of E of Pine Coulee crossing, plant on the east side of the river has been received and logged into our compliance tracking system. Due to the potential health or safety concerns noted, this file has been escalated for immediate review by our 24-Hour Duty Officer team.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 1: Tier 1 life-safety event must never be closed or handled without a named human decision.",
+    "run_record": {
+      "trace_id": "6ed03361-cbbe-4be2-96ef-d0f5338e5edb",
+      "execution_timestamp_utc": "2026-09-04T19:02:34.752307+00:00",
+      "execution_latency_sec": 16.758,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-013",
+    "extraction": {
+      "reporter_name": "T. Iqbal",
+      "reporter_contact": "tiqbal@example.org",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "Rge Rd 92",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Light pollution",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that severe light pollution from floodlights at a new Kestrel Midstream pad on Rge Rd 92 is pointing directly at their house throughout the night, remaining bright despite the use of blackout curtains."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158.",
+    "regulatory_finding": {
+      "directive_id": "None",
+      "clause_reference": null,
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Dear T. Iqbal,\n\nYour report regarding energy operations in the vicinity of Rge Rd 92 has been received and logged into our compliance tracking system. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "dd59317e-8593-4d5d-bdb2-510e80c3fd21",
+      "execution_timestamp_utc": "2026-09-04T19:02:45.401734+00:00",
+      "execution_latency_sec": 7.812,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-011",
+    "extraction": {
+      "reporter_name": "S. Nakamura",
+      "reporter_contact": "403-555-0155, 14 Larkspur Bay, Hollow Creek",
+      "operator_named": null,
+      "location_text": "14 Larkspur Bay, Hollow Creek",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Chemical smell",
+      "observed_symptoms": "Headache",
+      "summary_of_events": "The caller reported a recurring chemical smell in the basement of their residence. The caller and their daughter are experiencing acute health impacts, specifically headaches. No specific energy operator or infrastructure was identified, so jurisdiction regarding energy infrastructure versus municipal matters is currently undetermined."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear S. Nakamura,\n\nYour report regarding energy operations in the vicinity of 14 Larkspur Bay, Hollow Creek has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "479dc787-24e3-4979-a4e8-a928cb91b357",
+      "execution_timestamp_utc": "2026-09-04T19:02:43.587833+00:00",
+      "execution_latency_sec": 10.485,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-012",
+    "extraction": {
+      "reporter_name": "J. Kowalczyk",
+      "reporter_contact": "jkowal@example.net",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "Twp Rd 384 approach",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Standing fluid",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter observed standing fluid in the ditch along the approach to an Aurora Gas Partners well site at Twp Rd 384. The reporter is unsure if the fluid is rain runoff or another substance and submitted the observation for the record."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear J. Kowalczyk,\n\nYour report regarding energy operations in the vicinity of Twp Rd 384 approach has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "23af45f3-767c-4054-a538-b3a3c75798de",
+      "execution_timestamp_utc": "2026-09-04T19:02:45.206614+00:00",
+      "execution_latency_sec": 10.089,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-127"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-015",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "780-555-0163",
+      "operator_named": "Sablefield Energy",
+      "location_text": "unspecified",
+      "timestamp_incident": "last week",
+      "substance_or_hazard": null,
+      "observed_symptoms": null,
+      "summary_of_events": "Caller provided positive feedback regarding a Sablefield Energy crew that visited the previous week, noting they were professional and cleaned up after themselves. The caller confirmed this is not a complaint."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158.",
+    "regulatory_finding": {
+      "directive_id": "RD-158",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of unspecified has been received and logged into our compliance tracking system. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "23b8ba3c-5cdd-445a-b5b0-de43e43bd7ce",
+      "execution_timestamp_utc": "2026-09-04T19:02:46.722153+00:00",
+      "execution_latency_sec": 9.197,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-016",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "noreply-anon@example.net",
+      "operator_named": null,
+      "location_text": "Rge Rd 44 road allowance",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Gas smell",
+      "observed_symptoms": null,
+      "summary_of_events": "Reporter noted a strong gas smell near the Range Road 44 road allowance, stating this is the third occurrence this month and that previous reports have not received a callback."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Rge Rd 44 road allowance has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "48ec9651-5108-4d83-9c2e-734fa45a1b92",
+      "execution_timestamp_utc": "2026-09-04T19:02:47.725650+00:00",
+      "execution_latency_sec": 8.804,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-146"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-017",
+    "extraction": {
+      "reporter_name": "H. Doucette",
+      "reporter_contact": "hdoucette@example.com",
+      "operator_named": "Meridian Pipelines",
+      "location_text": "ROW km 14.2, N of Twp Rd 522",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Downed fence",
+      "observed_symptoms": null,
+      "summary_of_events": "Reporter states they operate a feedlot adjacent to a pipeline right of way. They report that cattle are agitated and a section of fence along the ROW is down, which they suspect is related to a recent integrity dig by the operator."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear H. Doucette,\n\nYour report regarding energy operations in the vicinity of ROW km 14.2, N of Twp Rd 522 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "e97ec5ec-f1f0-490b-9b07-59715aa4b1db",
+      "execution_timestamp_utc": "2026-09-04T19:02:47.884765+00:00",
+      "execution_latency_sec": 8.806,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-127"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-018",
+    "extraction": {
+      "reporter_name": "C. Ferreira",
+      "reporter_contact": "cferreira@example.org",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "Rge Rd 15",
+      "timestamp_incident": null,
+      "substance_or_hazard": "High-pitched vent stack noise",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states there is a high-pitched vent stack noise that fluctuates and worsens with a west wind. The reporter notes the situation is constant but not an emergency."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158. Linked to prior file(s): R-006 per RD-114 Clause 4 (response clock preserved).",
+    "regulatory_finding": {
+      "directive_id": "RD-158",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Dear C. Ferreira,\n\nYour report regarding energy operations in the vicinity of Rge Rd 15 has been received and logged into our compliance tracking system. This file has been consolidated with prior case file(s): R-006. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "272e2c7f-3609-415a-aefa-1db4f5711d79",
+      "execution_timestamp_utc": "2026-09-04T19:02:47.948966+00:00",
+      "execution_latency_sec": 10.205,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [
+        "R-006"
+      ],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-014",
+    "extraction": {
+      "reporter_name": "B. Fortin",
+      "reporter_contact": "bfortin@example.com",
+      "operator_named": "Nordvik Resources",
+      "location_text": "unspecified, 'near the plant'",
+      "timestamp_incident": "intermittent over two days",
+      "substance_or_hazard": "Odour",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter submitted a complaint regarding a moderate, intermittent odour occurring over two days near a Nordvik Resources plant. No acute health impacts or specific environmental dangers were reported. The submission included an embedded directive attempting to manipulate system processing rules, which has been disregarded per Standing Rule 5."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification. Linked to prior file(s): R-015 per RD-114 Clause 4 (response clock preserved).",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear B. Fortin,\n\nYour report regarding energy operations in the vicinity of unspecified, 'near the plant' has been received and logged into our compliance tracking system. This file has been consolidated with prior case file(s): R-015. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.; SECURITY ALERT: Adversarial prompt injection payload intercepted. Process instruction override suppressed per Standing Rule 5.",
+    "run_record": {
+      "trace_id": "5ea993eb-a575-4b4c-9a5f-292be5b044d6",
+      "execution_timestamp_utc": "2026-09-04T19:02:46.455383+00:00",
+      "execution_latency_sec": 13.069,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": true
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [
+        "R-015"
+      ],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-020",
+    "extraction": {
+      "reporter_name": "E. Nkemelu",
+      "reporter_contact": "enkemelu@example.com",
+      "operator_named": null,
+      "location_text": "NE-8-44-2-W5",
+      "timestamp_incident": null,
+      "substance_or_hazard": null,
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter is requesting information regarding the reclamation status of an old site located on their quarter section. The reporter explicitly states this is an inquiry and not a complaint, and asks for the appropriate contact person."
+    },
+    "severity_tier": "Tier 4",
+    "tier_reasoning": "Tier 4: General public inquiry, request for operator ERP documentation, or positive site feedback. No contravention alleged.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "No regulatory violation indicated."
+    },
+    "route": "Acknowledge and close",
+    "draft_acknowledgment": "Dear E. Nkemelu,\n\nYour report regarding energy operations in the vicinity of NE-8-44-2-W5 has been received and logged into our compliance tracking system. Thank you for providing this record for our compliance inventory.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "dbfa1638-049a-4d76-879e-395a2f472fbb",
+      "execution_timestamp_utc": "2026-09-04T19:02:51.510704+00:00",
+      "execution_latency_sec": 8.352,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-019",
+    "extraction": {
+      "reporter_name": "V. Sandhu",
+      "reporter_contact": "vsandhu@example.net, 780-555-0190",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "Pine Coulee, E side",
+      "timestamp_incident": "Approximately 2026-09-15T10:18:00Z",
+      "substance_or_hazard": "Loud noise, strong rotten egg smell (potential H2S)",
+      "observed_symptoms": "Scratchy throat",
+      "summary_of_events": "Reporter observed a loud noise followed by a very strong rotten egg smell originating from a nearby gas plant. Multiple people in the area noticed the odor simultaneously. The reporter is experiencing a scratchy throat. The presence of a rotten egg smell indicates potential H2S, which, combined with the reported health symptom, requires immediate escalation."
+    },
+    "severity_tier": "Tier 1",
+    "tier_reasoning": "RD-101 Clause 1 & RD-114 Clause 3: Release/odor containing H2S/sour gas with reported human health symptoms. Immediate escalation within 1 hour.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1",
+      "finding_summary": "Immediate 1-hour reportable H2S/sour gas release with public health symptoms."
+    },
+    "route": "Escalate to duty officer",
+    "draft_acknowledgment": "Dear V. Sandhu,\n\nYour report regarding energy operations in the vicinity of Pine Coulee, E side has been received and logged into our compliance tracking system. Due to the potential health or safety concerns noted, this file has been escalated for immediate review by our 24-Hour Duty Officer team.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 1: Tier 1 life-safety event must never be closed or handled without a named human decision.",
+    "run_record": {
+      "trace_id": "53670aa5-b207-4109-a15c-fb0da68b369e",
+      "execution_timestamp_utc": "2026-09-04T19:02:48.975409+00:00",
+      "execution_latency_sec": 12.802,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-158"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-023",
+    "extraction": {
+      "reporter_name": "K. Ozdemir",
+      "reporter_contact": "kozdemir@example.org",
+      "operator_named": "Meridian Pipelines",
+      "location_text": "creek crossing, S of Twp Rd 470",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Exposed pipe due to erosion",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter observed erosion along a pipeline crossing at a creek, which has reportedly exposed what appears to be a pipe. The reporter expressed concern about potential risks during the next high water event."
+    },
+    "severity_tier": "Tier 1",
+    "tier_reasoning": "Standing Rule / Tier 1 Guidance: Exposed pipeline under active creek crossing threatens uncontrolled release into a watercourse.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1",
+      "finding_summary": "Physical pipeline integrity threat directly crossing watercourse."
+    },
+    "route": "Escalate to duty officer",
+    "draft_acknowledgment": "Dear K. Ozdemir,\n\nYour report regarding energy operations in the vicinity of creek crossing, S of Twp Rd 470 has been received and logged into our compliance tracking system. Due to the potential health or safety concerns noted, this file has been escalated for immediate review by our 24-Hour Duty Officer team.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Infrastructure integrity risk threatening drinking water / watercourse.",
+    "run_record": {
+      "trace_id": "2f0d8968-4d32-472e-9b5e-97834a3687d2",
+      "execution_timestamp_utc": "2026-09-04T19:02:55.296149+00:00",
+      "execution_latency_sec": 8.562,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-127"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-021",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "403-555-0111",
+      "operator_named": "Nordvik Resources",
+      "location_text": "Twp Rd 340",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Road damage",
+      "observed_symptoms": null,
+      "summary_of_events": "Caller reports that heavy truck traffic from Nordvik Resources has damaged Township Road 340, which is now affecting the local school bus route. The caller noted that the county was contacted and attributed the road damage to the operator's traffic. This complaint pertains to municipal road infrastructure impacted by energy industry traffic."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Twp Rd 340 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "ce3929b7-9e1b-49f7-bcdb-ab45b9758741",
+      "execution_timestamp_utc": "2026-09-04T19:02:53.213690+00:00",
+      "execution_latency_sec": 12.059,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-146"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-024",
+    "extraction": {
+      "reporter_name": "F. Beaulieu",
+      "reporter_contact": "fbeaulieu@example.net",
+      "operator_named": "Sablefield Energy",
+      "location_text": "Rge Rd 205",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Dust",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that dust from a lease road is coating their hay. The reporter notes this issue has been raised twice previously and requests the implementation of previously promised dust suppression measures."
+    },
+    "severity_tier": "Tier 3",
+    "tier_reasoning": "Standing Rule / Tier 3: Ongoing nuisance and amenity impacts (noise, light, dust). Complainant decibel app readings treated as indicative only under RD-158.",
+    "regulatory_finding": {
+      "directive_id": "None",
+      "clause_reference": null,
+      "finding_summary": "Amenity impact subject to operator liaison inquiry."
+    },
+    "route": "Assign to operator liaison",
+    "draft_acknowledgment": "Dear F. Beaulieu,\n\nYour report regarding energy operations in the vicinity of Rge Rd 205 has been received and logged into our compliance tracking system. Our operator liaison team is reviewing the matter with the designated licensee.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "93e09744-cc85-4b9a-ae9e-557133c7434e",
+      "execution_timestamp_utc": "2026-09-04T19:02:55.919567+00:00",
+      "execution_latency_sec": 9.762,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-022",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "780-555-0100",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "Hollow Creek hamlet, approx 400 m downwind of sour facility; elementary school adjacent",
+      "timestamp_incident": "Approximately 15 minutes prior to 2026-09-16T13:41:00Z",
+      "substance_or_hazard": "Sour gas",
+      "observed_symptoms": "Dizziness",
+      "summary_of_events": "Caller reported a very strong sour gas smell in Hollow Creek hamlet, attributing it to a Kestrel Midstream sour facility located approximately 400 meters upwind (energy infrastructure). The incident began approximately 15 minutes prior to the call. A neighbor reported experiencing dizziness, indicating acute health impacts. The caller also noted an adjacent elementary school with children outside, highlighting acute environmental danger and potential setback non-compliance."
+    },
+    "severity_tier": "Tier 1",
+    "tier_reasoning": "RD-101 Clause 1 & RD-114 Clause 3: Release/odor containing H2S/sour gas with reported human health symptoms. Immediate escalation within 1 hour.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1",
+      "finding_summary": "Immediate 1-hour reportable H2S/sour gas release with public health symptoms."
+    },
+    "route": "Escalate to duty officer",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Hollow Creek hamlet, approx 400 m downwind of sour facility; elementary school adjacent has been received and logged into our compliance tracking system. Due to the potential health or safety concerns noted, this file has been escalated for immediate review by our 24-Hour Duty Officer team.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 1: Tier 1 life-safety event must never be closed or handled without a named human decision.",
+    "run_record": {
+      "trace_id": "cfccc289-1709-446c-aa05-845d72bcf0ab",
+      "execution_timestamp_utc": "2026-09-04T19:02:54.073315+00:00",
+      "execution_latency_sec": 11.884,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-127"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-025",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "anon2@example.net",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "N end of pad, Twp Rd 392",
+      "timestamp_incident": "around 2pm today",
+      "substance_or_hazard": "wash water",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter observed a contractor allegedly dumping a substance resembling wash water into a ditch at the north end of the pad at approximately 2:00 PM on the day of the report. This represents a potential uncontained release into a ditch."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-101 Clause 2: Unpermitted release of process/wash fluids into surface drainage ditch.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 2",
+      "finding_summary": "Uncontained liquid release into public road allowance."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of N end of pad, Twp Rd 392 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "4eb594c7-ca21-40e9-b948-ed04b46b63b3",
+      "execution_timestamp_utc": "2026-09-04T19:02:56.529252+00:00",
+      "execution_latency_sec": 9.922,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-027",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "587-555-0134",
+      "operator_named": "Sablefield Energy",
+      "location_text": "LSD 11-3-51-6-W5",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Open gate",
+      "observed_symptoms": null,
+      "summary_of_events": "The caller reported that a gate was left open on the lease, allowing their horses to escape onto the range road. The horses were recovered with no injuries. The caller noted this is the third time this has happened."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-146 Clause 1, 2 & 3: Unauthorized entry without mandatory 7 days written notice, or failure to restore agricultural gate/livestock controls.",
+    "regulatory_finding": {
+      "directive_id": "RD-146",
+      "clause_reference": "Clause 2 & 3",
+      "finding_summary": "Licensee contravention: entry without notice or failure to maintain livestock barriers."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of LSD 11-3-51-6-W5 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "c89828cb-4378-46db-a341-e06e7aa38c68",
+      "execution_timestamp_utc": "2026-09-04T19:02:58.153791+00:00",
+      "execution_latency_sec": 9.773,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-146"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-030",
+    "extraction": {
+      "reporter_name": "N. Popescu",
+      "reporter_contact": "npopescu@example.com",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "SE-19-53-4-W5",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Potential groundwater contamination (changed taste and fizz in well water)",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states their well water has changed taste and developed a slight fizz. They note new drilling activity approximately 1.5 km away and are requesting their water be tested. This indicates a potential impact to a source of drinking water."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear N. Popescu,\n\nYour report regarding energy operations in the vicinity of SE-19-53-4-W5 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "ed5d6aeb-fed6-4c2e-8021-43186ae97774",
+      "execution_timestamp_utc": "2026-09-04T19:03:01.777149+00:00",
+      "execution_latency_sec": 11.435,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-035",
+    "extraction": {
+      "reporter_name": "O. Lindqvist",
+      "reporter_contact": "olindqvist@example.net",
+      "operator_named": "Aurora Gas Partners",
+      "location_text": "Rge Rd 31",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Property damage",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that a fence was damaged by drilling traffic. The damage is described as minor, and the reporter is requesting repairs before winter."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear O. Lindqvist,\n\nYour report regarding energy operations in the vicinity of Rge Rd 31 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "a5e4cbc9-74c6-4c86-ba1c-28bc89005f7e",
+      "execution_timestamp_utc": "2026-09-04T19:03:06.451607+00:00",
+      "execution_latency_sec": 9.113,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-031",
+    "extraction": {
+      "reporter_name": "I. Sorensen",
+      "reporter_contact": "isorensen@example.com, 403-555-0182, 8812 Ravenscrag Road, Hollow Creek",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "8812 Ravenscrag Road, Hollow Creek",
+      "timestamp_incident": "September 8 to September 12",
+      "substance_or_hazard": "Flaring emissions",
+      "observed_symptoms": "Acute respiratory distress, wheezing, increased use of rescue inhaler",
+      "summary_of_events": "The reporter states that their 14-year-old daughter has experienced acute respiratory distress, wheezing, and increased reliance on a rescue inhaler since flaring began at a nearby Kestrel Midstream site. A symptom log from September 8 to September 12 was provided, noting a clinic visit, missed school, and increased medication dosage. The reporter lives at 8812 Ravenscrag Road in Hollow Creek."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear I. Sorensen,\n\nYour report regarding energy operations in the vicinity of 8812 Ravenscrag Road, Hollow Creek has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.; PRIVACY ALERT: Sensitive Personal Health Information (Provincial Health ID) detected and redacted.",
+    "run_record": {
+      "trace_id": "0ab3d11a-4236-46c0-aa9c-19605840d542",
+      "execution_timestamp_utc": "2026-09-04T19:03:03.858346+00:00",
+      "execution_latency_sec": 11.833,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": true,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-032",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "anon3@example.net",
+      "operator_named": "Meridian Pipelines",
+      "location_text": "Twp Rd 500 spread",
+      "timestamp_incident": "5:15 am for three consecutive days",
+      "substance_or_hazard": "Heavy equipment noise",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that heavy equipment is operating outside permitted hours, specifically starting at 5:15 am for three consecutive days."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Twp Rd 500 spread has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "53cd2207-5cd0-4de1-b4a4-133b73dea97e",
+      "execution_timestamp_utc": "2026-09-04T19:03:05.272523+00:00",
+      "execution_latency_sec": 13.039,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-133"
+        },
+        {
+          "directive_id": "RD-101"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-028",
+    "extraction": {
+      "reporter_name": "Operations Supervisor, Nordvik Resources",
+      "reporter_contact": "ops.super@nordvik.example.com",
+      "operator_named": "Nordvik Resources",
+      "location_text": "pad 03-16-48-9-W5, contained on lease",
+      "timestamp_incident": null,
+      "substance_or_hazard": "produced water",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter, an Operations Supervisor for Nordvik Resources, reported a 1.4 cubic metre produced water release at pad 03-16-48-9-W5. The release was fully contained within the bermed area on the lease and recovered by a vac truck within an hour. The reporter noted no hydrocarbon sheen, no watercourse within 900 metres, no wildlife contact, and no H2S. Operator internal reference NR-2026-4471."
+    },
+    "severity_tier": "Tier 4",
+    "tier_reasoning": "RD-101 Clause 3: Self-reported produced water release <= 2.0 m3, fully contained on pad, no waterbody impact, no H2S, no wildlife contact.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 3",
+      "finding_summary": "Compliant licensee recording submission; not a contravention."
+    },
+    "route": "Records only",
+    "draft_acknowledgment": null,
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "cbbac58f-de08-41c4-999a-8bdb7b15129d",
+      "execution_timestamp_utc": "2026-09-04T19:02:59.524106+00:00",
+      "execution_latency_sec": 20.653,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-039",
+    "extraction": {
+      "reporter_name": "Z. Kaur",
+      "reporter_contact": "zkaur@example.org",
+      "operator_named": "Sablefield Energy",
+      "location_text": "dugout adjacent to pad, NW-27-45-7-W5",
+      "timestamp_incident": "this week",
+      "substance_or_hazard": "Suspected poisoning / unknown substance",
+      "observed_symptoms": "Cattle mortality (two animals died)",
+      "summary_of_events": "The reporter states that two cattle died this week after drinking from a dugout adjacent to a Sablefield Energy lease pad at NW-27-45-7-W5. A veterinarian suspects poisoning but the source is unconfirmed. The reporter requests testing of the dugout water and information regarding substances stored on the adjacent pad."
+    },
+    "severity_tier": "Tier 1",
+    "tier_reasoning": "RD-101 Clause 1 & RD-114 Clause 3: Release/odor containing H2S/sour gas with reported human health symptoms. Immediate escalation within 1 hour.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1",
+      "finding_summary": "Immediate 1-hour reportable H2S/sour gas release with public health symptoms."
+    },
+    "route": "Escalate to duty officer",
+    "draft_acknowledgment": "Dear Z. Kaur,\n\nYour report regarding energy operations in the vicinity of dugout adjacent to pad, NW-27-45-7-W5 has been received and logged into our compliance tracking system. Due to the potential health or safety concerns noted, this file has been escalated for immediate review by our 24-Hour Duty Officer team.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 1: Tier 1 life-safety event must never be closed or handled without a named human decision.",
+    "run_record": {
+      "trace_id": "2b8628ac-17ca-46b5-9389-cf835de96e3b",
+      "execution_timestamp_utc": "2026-09-04T19:03:15.691209+00:00",
+      "execution_latency_sec": 11.208,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-036",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "403-555-0173",
+      "operator_named": null,
+      "location_text": "town of Hollow Creek, main street",
+      "timestamp_incident": "six in the morning",
+      "substance_or_hazard": "Gravel trucks, noise, vibration, and property damage",
+      "observed_symptoms": null,
+      "summary_of_events": "Caller reported gravel trucks driving through town at 6:00 AM, causing window vibrations and damage to a mailbox. The caller confirmed the trucks are associated with a new subdivision development and not an energy facility, indicating this is a municipal or non-energy matter outside AER jurisdiction."
+    },
+    "severity_tier": "Tier 4",
+    "tier_reasoning": "Traffic impact associated with municipal residential subdivision development, outside AER energy jurisdiction.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Out of AER statutory jurisdiction."
+    },
+    "route": "Acknowledge and close",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nThank you for contacting the Alberta Energy Regulator. Based on the details provided regarding traffic and municipal infrastructure, this matter falls outside energy regulatory jurisdiction. We recommend contacting the County / Municipal Road Authority for assistance.\n\nAER Public Intake Services",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "d0b0021f-df8f-4e94-bcd0-cd32d20c1f9f",
+      "execution_timestamp_utc": "2026-09-04T19:03:07.926809+00:00",
+      "execution_latency_sec": 39.193,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-037",
+    "extraction": {
+      "reporter_name": "Q. Adeyemi",
+      "reporter_contact": "qadeyemi@example.com",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "notification zone, Hollow Creek area",
+      "timestamp_incident": null,
+      "substance_or_hazard": "sour facility",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter, identifying as a resident within the notification zone of a sour facility in the Hollow Creek area, is requesting a copy of the emergency response plan for the facility operated by Kestrel Midstream."
+    },
+    "severity_tier": "Tier 4",
+    "tier_reasoning": "Tier 4: General public inquiry, request for operator ERP documentation, or positive site feedback. No contravention alleged.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "No regulatory violation indicated."
+    },
+    "route": "Acknowledge and close",
+    "draft_acknowledgment": "Dear Q. Adeyemi,\n\nYour report regarding energy operations in the vicinity of notification zone, Hollow Creek area has been received and logged into our compliance tracking system. Thank you for providing this record for our compliance inventory.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "7fca777a-8087-4065-add8-a4bc1936dc8f",
+      "execution_timestamp_utc": "2026-09-04T19:03:13.212557+00:00",
+      "execution_latency_sec": 38.599,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-127"
+        },
+        {
+          "directive_id": "RD-146"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-038",
+    "extraction": {
+      "reporter_name": "withheld",
+      "reporter_contact": "anon4@example.net",
+      "operator_named": "Nordvik Resources",
+      "location_text": "Rge Rd 122",
+      "timestamp_incident": "past two hours",
+      "substance_or_hazard": "Venting sound and visible vapour",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter observed a steady venting sound and visible vapour coming from a tank on a Nordvik Resources lease located at Rge Rd 122 for the past two hours. The reporter noted there was no detectable odor from the road."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Thank you for contacting the Alberta Energy Regulator.\n\nYour report regarding energy operations in the vicinity of Rge Rd 122 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "c417fcc9-76e3-4f88-9b09-12f26c32422d",
+      "execution_timestamp_utc": "2026-09-04T19:03:15.565037+00:00",
+      "execution_latency_sec": 38.53,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-040",
+    "extraction": {
+      "reporter_name": null,
+      "reporter_contact": null,
+      "operator_named": null,
+      "location_text": null,
+      "timestamp_incident": null,
+      "substance_or_hazard": null,
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter submitted a brief statement indicating that an unspecified event is happening again. No location, operator, hazard, or contact information was provided."
+    },
+    "severity_tier": "Untiered",
+    "tier_reasoning": "Record contains insufficient data to establish regulatory jurisdiction or incident substance. Reporter anonymous.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Insufficient factual basis for regulatory assessment."
+    },
+    "route": "Acknowledge and close",
+    "draft_acknowledgment": null,
+    "human_flag": true,
+    "human_flag_reason": "Insufficient information to tier; uncontactable reporter. Human sign-off required before intake close.",
+    "run_record": {
+      "trace_id": "66760144-322a-46c1-89d6-d163edcaa4ec",
+      "execution_timestamp_utc": "2026-09-04T19:03:18.311495+00:00",
+      "execution_latency_sec": 37.485,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-133"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  },
+  {
+    "record_id": "R-026",
+    "extraction": {
+      "reporter_name": "S. Nakamura",
+      "reporter_contact": "snakamura@example.com, 14 Larkspur Bay, Hollow Creek",
+      "operator_named": null,
+      "location_text": "14 Larkspur Bay, Hollow Creek",
+      "timestamp_incident": "Ongoing / This week",
+      "substance_or_hazard": "Chemical smell",
+      "observed_symptoms": "Headaches",
+      "summary_of_events": "The reporter states this is their second time contacting regarding a chemical smell in their basement. The odor has reportedly intensified this week, and the reporter notes acute health impacts, specifically that their daughter has experienced headaches and missed two days of school. The reporter states no one has attended the location yet. The source of the chemical smell is unidentified, so it is currently unknown if this falls under energy infrastructure or municipal jurisdiction."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification. Linked to prior file(s): R-011 per RD-114 Clause 4 (response clock preserved).",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear S. Nakamura,\n\nYour report regarding energy operations in the vicinity of 14 Larkspur Bay, Hollow Creek has been received and logged into our compliance tracking system. This file has been consolidated with prior case file(s): R-011. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "434b7aee-948e-4420-9d4a-8f0d88ff5b4f",
+      "execution_timestamp_utc": "2026-09-04T19:02:56.692972+00:00",
+      "execution_latency_sec": 71.847,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [
+        "R-011"
+      ],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-029",
+    "extraction": {
+      "reporter_name": "W. Antoine",
+      "reporter_contact": "wantoine@example.org",
+      "operator_named": null,
+      "location_text": "quarter section W of Rge Rd 82",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Fallen snow fence and signage around abandoned wellhead",
+      "observed_symptoms": null,
+      "summary_of_events": "The reporter states that the snow fence and signage surrounding an abandoned wellhead have fallen over. The reporter notes this is a potential physical hazard because children ride quads in the area."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear W. Antoine,\n\nYour report regarding energy operations in the vicinity of quarter section W of Rge Rd 82 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "37defbb8-216e-4563-9521-3004fc3fe197",
+      "execution_timestamp_utc": "2026-09-04T19:02:59.862566+00:00",
+      "execution_latency_sec": 70.09,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-146"
+        },
+        {
+          "directive_id": "RD-127"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-033",
+    "extraction": {
+      "reporter_name": "unknown",
+      "reporter_contact": "780-555-0129",
+      "operator_named": null,
+      "location_text": null,
+      "timestamp_incident": null,
+      "substance_or_hazard": "odor",
+      "observed_symptoms": null,
+      "summary_of_events": "Caller reported a recurring odor but disconnected the call before providing the location or any additional details to the agent."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "Standing Rule 2: Conservative fallback applied. Ambiguous environmental/operational report tiered upward to ensure field verification.",
+    "regulatory_finding": {
+      "directive_id": null,
+      "clause_reference": null,
+      "finding_summary": "Potential regulatory concern under investigation."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear unknown,\n\nYour report regarding energy operations has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": true,
+    "human_flag_reason": "Standing Rule 2: Tier uncertainty defaulted to higher classification; human review required.",
+    "run_record": {
+      "trace_id": "0f2c055e-653c-41b8-9f28-56793113f171",
+      "execution_timestamp_utc": "2026-09-04T19:03:05.682025+00:00",
+      "execution_latency_sec": 68.64,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-114"
+        },
+        {
+          "directive_id": "RD-158"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": true
+    }
+  },
+  {
+    "record_id": "R-034",
+    "extraction": {
+      "reporter_name": "Y. Mbeki",
+      "reporter_contact": "ymbeki@example.org",
+      "operator_named": "Kestrel Midstream",
+      "location_text": "slough S of battery, Twp Rd 448",
+      "timestamp_incident": null,
+      "substance_or_hazard": "Oily sheen",
+      "observed_symptoms": null,
+      "summary_of_events": "Reporter observed an oily sheen measuring approximately 40 by 10 metres on a slough downstream of a battery. Waterfowl were noted to be present on the slough."
+    },
+    "severity_tier": "Tier 2",
+    "tier_reasoning": "RD-101 Clause 1: Potential contamination of drinking water source / liquid release reaching surface waterbody.",
+    "regulatory_finding": {
+      "directive_id": "RD-101",
+      "clause_reference": "Clause 1 & 2",
+      "finding_summary": "Release reaching waterbody or drinking water aquifer."
+    },
+    "route": "Queue for inspection",
+    "draft_acknowledgment": "Dear Y. Mbeki,\n\nYour report regarding energy operations in the vicinity of slough S of battery, Twp Rd 448 has been received and logged into our compliance tracking system. A field inspection request has been logged and assigned to regional operations for verification.\n\nAER Public Intake & Response Branch | Tracking Ref: [AUTOGEN-REF]",
+    "human_flag": false,
+    "human_flag_reason": null,
+    "run_record": {
+      "trace_id": "6bf82423-a71b-4ac0-8ff8-ef34f99bc978",
+      "execution_timestamp_utc": "2026-09-04T19:03:05.957020+00:00",
+      "execution_latency_sec": 69.098,
+      "model_version": "gemini-3.1-pro-preview",
+      "policy_version": "2026.09.AER-RULES-v4",
+      "sanitization": {
+        "pii_redacted": false,
+        "injection_detected": false
+      },
+      "retrieval_provenance": [
+        {
+          "directive_id": "RD-101"
+        },
+        {
+          "directive_id": "RD-114"
+        }
+      ],
+      "linked_incident_records": [],
+      "deterministic_override_applied": false
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "dataset": "AER practical exercise - synthetic intake records",
+  "note": "Entirely fabricated. Operators, people, places, phone numbers, and directive references are fictional and do not represent real entities or real regulatory content.",
+  "record_count": 40,
+  "records": [
+    {
+      "record_id": "R-001",
+      "channel": "web_form",
+      "received_utc": "2026-09-14T13:02:00Z",
+      "raw_text": "Ongoing diesel smell near the access road by our quarter. Started maybe Thursday. Not overpowering but my wife has been getting headaches in the evening.",
+      "reporter": {
+        "name": "G. Halvorsen",
+        "email": "ghalv@example.net",
+        "phone": "780-555-0142"
+      },
+      "operator_named": "Nordvik Resources",
+      "location_text": "NW of Barrhead, Rge Rd 84"
+    },
+    {
+      "record_id": "R-002",
+      "channel": "phone_transcript",
+      "received_utc": "2026-09-14T14:40:00Z",
+      "raw_text": "CALLER: yeah there's a truck been idling on the lease road since about six this morning and the dust is unreal, we can't hang laundry. AGENT: is there any spill or leak. CALLER: no just dust and noise.",
+      "reporter": {
+        "name": "withheld",
+        "phone": "403-555-0198"
+      },
+      "operator_named": null,
+      "location_text": "Rge Rd 271 near Twp Rd 344"
+    }
+  ]
+}

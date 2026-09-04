@@ -1,20 +1,25 @@
 """
 AER Intake Triage Agent
 Senior Advisor, AI Agent Strategy & Development Standards
-Tech Stack: Python 3.11+, Google GenAI SDK (Gemini Pro), ChromaDB, Pydantic v2
+Tech Stack: Python 3.11+, Google GenAI SDK, ChromaDB, Pydantic v2
 """
 
 import os
 import re
 import json
 import uuid
+import warnings
 from datetime import datetime, timezone
 from typing import Optional, List, Dict, Any, Literal
 from pydantic import BaseModel, Field
 
+from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 import chromadb
 from google import genai
-from google.genai import types
+from google.genai import types, errors
+
+# Suppress the noisy Automatic Function Calling (AFC) SDK warning
+warnings.filterwarnings("ignore", message="Direct use of automatic function calling.*")
 
 # ==============================================================================
 # DATA CONTRACTS & OUTPUT SCHEMA
@@ -201,12 +206,19 @@ CRITICAL OPERATIONAL RULES:
 Extract the details precisely matching the requested JSON schema.
 """
 
+@retry(
+    stop=stop_after_attempt(6),
+    wait=wait_exponential(multiplier=2, min=2, max=30),
+    retry=retry_if_exception_type((errors.APIError, errors.ServerError)),
+    reraise=True
+)
 def call_gemini_extractor(
     client: genai.Client,
     record: Dict[str, Any],
     sanitized_text: str,
     retrieved_directives: str
 ) -> Dict[str, Any]:
+    """Invokes Gemini with constrained structured output schema and exponential backoff."""
     user_payload = {
         "record_id": record["record_id"],
         "channel": record["channel"],
@@ -218,8 +230,10 @@ def call_gemini_extractor(
         "retrieved_regulatory_context": retrieved_directives
     }
 
+    target_model = os.getenv("GEMINI_MODEL", "gemini-3.1-pro-preview")
+
     response = client.models.generate_content(
-        model=os.getenv("GEMINI_MODEL", "gemini-3.6-flash"),
+        model=target_model,
         contents=f"Triage this intake record:\n{json.dumps(user_payload, indent=2)}",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
@@ -543,7 +557,7 @@ class AERTriageEngine:
             "trace_id": str(uuid.uuid4()),
             "execution_timestamp_utc": start_time.isoformat(),
             "execution_latency_sec": round(execution_latency, 3),
-            "model_version": "gemini-2.5-pro",
+            "model_version": os.getenv("GEMINI_MODEL", "gemini-3.1-pro-preview"),
             "policy_version": "2026.09.AER-RULES-v4",
             "sanitization": {
                 "pii_redacted": has_pii,
