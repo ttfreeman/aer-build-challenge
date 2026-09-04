@@ -35,7 +35,7 @@ run_minimal.py (60 lines) - Entry point with rich output
 ## Key Improvements
 
 | Feature | Benefit |
-|---------|---------|
+|---------|----------|
 | **Modular pipeline** | Each stage is independent, testable, reusable |
 | **External directives** | Regulations are data, not code; easier to update |
 | **Validation loop** | Deterministic floor prevents LLM from under-tiering |
